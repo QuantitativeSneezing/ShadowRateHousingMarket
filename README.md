@@ -1,2 +1,6 @@
 # ShadowRateHousingMarket
- This program compares the Shadow federal funds rate to the House Price index
+ In response to the ongoing economic challenges posed by the Covid-19 pandemic, the Federal Reserve has once again embarked on another program of Quantitative Easing in order to support the economy. The Fed's actions have also appeared to affect asset prices in various ways- while the bond market's low yields are the most obvious reflection of this state of affairs, the real estate market likely also reflects the lower cost of borrowing. In particular, because of the negative real cost of carrying debt, the return on a real estate investment can be thought of as being composed of a "risk free" rate of return- the negative interest rate gained by borrowing of any kind under current conditions, and a market return component reflecting the demand for real estate.
+This tool is designed to calculate the latter, and assumes the Wu-Xia Shadow federal funds rate 
+(Retrieved from here: https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate) is approximately equivalent to the latter. 
+
+The market rate of return is the seasonally adjusted Case-Shiller U.S. national price index's 6 month geometric mean (retrieved from https://fred.stlouisfed.org/series/CSUSHPISA).
