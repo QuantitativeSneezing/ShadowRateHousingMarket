@@ -3,4 +3,4 @@
 This tool is designed to calculate the latter, and assumes the Wu-Xia Shadow federal funds rate 
 (Retrieved from here: https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate) is approximately equivalent to the latter. 
 
-The market rate of return is the seasonally adjusted Case-Shiller U.S. national price index's 6 month geometric mean (retrieved from https://fred.stlouisfed.org/series/CSUSHPISA).
+The market rate of return is the seasonally adjusted Case-Shiller U.S. national price index's mean return over 6 months (retrieved from https://fred.stlouisfed.org/series/CSUSHPISA).
