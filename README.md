@@ -1,6 +1,6 @@
 # ShadowRateHousingMarket
- In response to the ongoing economic challenges posed by the Covid-19 pandemic, the Federal Reserve has once again embarked on another program of Quantitative Easing in order to support the economy. The Fed's actions have also appeared to affect asset prices in various ways- while the bond market's low yields are the most obvious reflection of this state of affairs, the real estate market likely also reflects the lower cost of borrowing. In particular, because of the negative real cost of carrying debt, the return on a real estate investment can be thought of as being composed of a "risk free" rate of return- the negative interest rate gained by borrowing of any kind under current conditions, and a market return component reflecting the demand for real estate.
-This tool is designed to calculate the latter, and assumes the Wu-Xia Shadow federal funds rate 
-(Retrieved from here: https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate) is approximately equivalent to the latter. 
+Quantitative Easing programs have become somewhat of a mainstay of monetary policy in recent years. with numerous central banks embarking on aggressive easing policies during economic hardship. By design, such programs intentionally drive the cost of borrowing below zero, in real terms. While most evaluations of house price changes are adjusted for inflation, it may be useful to recapture this in order to evaluate real estate under such monetary conditions. In order to do so, we retrieve the "Shadow" federal funds rate
+Retrieved from here: https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate), which approximates the real cost of borrowing.
+For the change in housing prices, we use the seasonally adjusted Case-Shiller U.S. national price index's mean return over 6 months (retrieved from https://fred.stlouisfed.org/series/CSUSHPISA).
 
-The market rate of return is the seasonally adjusted Case-Shiller U.S. national price index's mean return over 6 months (retrieved from https://fred.stlouisfed.org/series/CSUSHPISA).
+This tool is a WIP and will be updated over time.
